@@ -1,0 +1,153 @@
+[
+{
+"model": "graphql_api.artist",
+"pk": 1,
+"fields": {
+"name": "Enrique Iglesias",
+"img_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm703riqVDD-glvgFENQHAU9RyGtQNJG78RGMHzPbtHdDSk-45"
+}
+},{
+"model": "graphql_api.artist",
+"pk": 2,
+"fields": {
+"name": "Avril Lavigne",
+"img_url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdcuuAD54y11Ulde-_T5n3_ryYSsXevOILSLhmx4cKDC8N8Ihm"
+}
+},{
+"model": "graphql_api.artist",
+"pk": 3,
+"fields": {
+"name": "Eminem",
+"img_url":"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSusoQHrrN1QD_DMEYP5yYn1bBI-oj7rnnA7WeK7429w1NyCeYV"
+}
+},
+{
+"model": "graphql_api.album",
+"pk": 1,
+"fields": {
+  "name": "Final",
+  "artist": 1,
+  "pub_date": "2021-09-17",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Enrique_Iglesias_-_Final.png/220px-Enrique_Iglesias_-_Final.png"
+}
+},{
+"model": "graphql_api.album",
+"pk": 2,
+"fields": {
+  "name": "Head Above Water",
+  "artist": 2,
+  "pub_date": "2019-02-15",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Avril_Lavigne_%E2%80%93_Head_Above_Water_%28Official_Album_Cover%29.png"
+}
+},{
+"model": "graphql_api.album",
+"pk": 3,
+"fields": {
+  "name": "Music to Be Murdered By",
+  "artist": 3,
+  "pub_date": "2020-01-17",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/8/80/Eminem_-_Music_to_Be_Murdered_By.png"
+}
+},{
+"model": "graphql_api.song",
+"pk": 1,
+"fields": {
+  "name": "Chasing the Sun",
+  "artist": 1,
+  "album": 1,
+  "pub_date": "2021-09-17",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Enrique_Iglesias_-_Final.png/220px-Enrique_Iglesias_-_Final.png",
+  "song_url": "https://youtu.be/GilZzGoEMvQ"
+}
+},{
+"model": "graphql_api.song",
+"pk": 2,
+"fields": {
+  "name": "Te Fuiste",
+  "artist": 1,
+  "album": 1,
+  "pub_date": "2021-09-17",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Enrique_Iglesias_-_Final.png/220px-Enrique_Iglesias_-_Final.png",
+  "song_url": "https://youtu.be/GilZzGoEMvQ"
+}
+},{
+"model": "graphql_api.song",
+"pk": 3,
+"fields": {
+  "name": "Pendejo",
+  "artist": 1,
+  "album": 1,
+  "pub_date": "2021-09-17",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Enrique_Iglesias_-_Final.png/220px-Enrique_Iglesias_-_Final.png",
+  "song_url": "https://youtu.be/GilZzGoEMvQ"
+}
+},{
+"model": "graphql_api.song",
+"pk": 4,
+"fields": {
+  "name": "Head Above Water",
+  "artist": 2,
+  "album": 2,
+  "pub_date": "2019-02-15",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Avril_Lavigne_%E2%80%93_Head_Above_Water_%28Official_Album_Cover%29.png",
+  "song_url": "https://youtu.be/XIw_e2B0AbE"
+}
+},{
+"model": "graphql_api.song",
+"pk": 5,
+"fields": {
+  "name": "birdie",
+  "artist": 2,
+  "album": 2,
+  "pub_date": "2019-02-15",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Avril_Lavigne_%E2%80%93_Head_Above_Water_%28Official_Album_Cover%29.png",
+  "song_url": "https://youtu.be/XIw_e2B0AbE"
+}
+},{
+"model": "graphql_api.song",
+"pk": 6,
+"fields": {
+  "name": "i fell in love with the devil",
+  "artist": 2,
+  "album": 2,
+  "pub_date": "2019-02-15",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/6/6a/Avril_Lavigne_%E2%80%93_Head_Above_Water_%28Official_Album_Cover%29.png",
+  "song_url": "https://youtu.be/XIw_e2B0AbE"
+}
+}
+  ,{
+"model": "graphql_api.song",
+"pk": 7,
+"fields": {
+  "name": "premonition",
+  "artist": 3,
+  "album": 3,
+  "pub_date": "2020-01-17",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/8/80/Eminem_-_Music_to_Be_Murdered_By.png",
+  "song_url": "https://youtu.be/hlFOLS7vKaQ"
+}
+}
+  ,{
+"model": "graphql_api.song",
+"pk": 8,
+"fields": {
+  "name": "unaccommodating",
+  "artist": 3,
+  "album": 3,
+  "pub_date": "2020-01-17",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/8/80/Eminem_-_Music_to_Be_Murdered_By.png",
+  "song_url": "https://youtu.be/hlFOLS7vKaQ"
+}
+},{
+"model": "graphql_api.song",
+"pk": 9,
+"fields": {
+  "name": "you gon’ learn",
+  "artist": 3,
+  "album": 3,
+  "pub_date": "2020-01-17",
+  "img_url": "https://upload.wikimedia.org/wikipedia/en/8/80/Eminem_-_Music_to_Be_Murdered_By.png",
+  "song_url": "https://youtu.be/hlFOLS7vKaQ"
+}
+}
+]
