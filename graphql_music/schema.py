@@ -21,7 +21,7 @@ class Song(DjangoObjectType):
 
 class ArtistInput(graphene.InputObjectType):
     name = graphene.String()
-
+    img_url = graphene.String()
 
 class SongInput(graphene.InputObjectType):
     name = graphene.String()
