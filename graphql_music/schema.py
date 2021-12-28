@@ -23,6 +23,7 @@ class ArtistInput(graphene.InputObjectType):
     name = graphene.String()
     img_url = graphene.String()
 
+
 class SongInput(graphene.InputObjectType):
     name = graphene.String()
     pub_date = graphene.Date()
@@ -47,7 +48,7 @@ class CreateArtist(graphene.Mutation):
 
     @staticmethod
     def mutate(root, info, input):
-        instance = models.Artist(name=input.name)
+        instance = models.Artist(name=input.name,img_url=input.img_url)
         try:
             instance.save()
         except Exception:
